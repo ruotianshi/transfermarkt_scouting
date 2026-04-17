@@ -1,0 +1,370 @@
+{
+  "Premier League": {
+    "teams": {
+      "Manchester City": {
+        "kader_url": "https://www.transfermarkt.co.uk/manchester-city/kader/verein/281/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/281.png?lm=1467356331"
+      },
+      "Arsenal FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-arsenal/kader/verein/11/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/11.png?lm=1489787850"
+      },
+      "Chelsea FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-chelsea/kader/verein/631/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/631.png?lm=1682435911"
+      },
+      "Liverpool FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-liverpool/kader/verein/31/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/31.png?lm=1727873452"
+      },
+      "Tottenham Hotspur": {
+        "kader_url": "https://www.transfermarkt.co.uk/tottenham-hotspur/kader/verein/148/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/148.png?lm=1732011953"
+      },
+      "Manchester United": {
+        "kader_url": "https://www.transfermarkt.co.uk/manchester-united/kader/verein/985/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/985.png?lm=1457975903"
+      },
+      "Newcastle United": {
+        "kader_url": "https://www.transfermarkt.co.uk/newcastle-united/kader/verein/762/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/762.png?lm=1472921161"
+      },
+      "Nottingham Forest": {
+        "kader_url": "https://www.transfermarkt.co.uk/nottingham-forest/kader/verein/703/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/703.png?lm=1598890289"
+      },
+      "Aston Villa": {
+        "kader_url": "https://www.transfermarkt.co.uk/aston-villa/kader/verein/405/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/405.png?lm=1717155982"
+      },
+      "Crystal Palace": {
+        "kader_url": "https://www.transfermarkt.co.uk/crystal-palace/kader/verein/873/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/873.png?lm=1457723287"
+      },
+      "AFC Bournemouth": {
+        "kader_url": "https://www.transfermarkt.co.uk/afc-bournemouth/kader/verein/989/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/989.png?lm=1457991811"
+      },
+      "Brighton & Hove Albion": {
+        "kader_url": "https://www.transfermarkt.co.uk/brighton-amp-hove-albion/kader/verein/1237/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1237.png?lm=1492718902"
+      },
+      "Brentford FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-brentford/kader/verein/1148/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1148.png?lm=1625150543"
+      },
+      "Everton FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-everton/kader/verein/29/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/29.png?lm=1445949846"
+      },
+      "Fulham FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-fulham/kader/verein/931/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/931.png?lm=1556831687"
+      },
+      "Sunderland AFC": {
+        "kader_url": "https://www.transfermarkt.co.uk/afc-sunderland/kader/verein/289/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/289.png?lm=1485645633"
+      },
+      "West Ham United": {
+        "kader_url": "https://www.transfermarkt.co.uk/west-ham-united/kader/verein/379/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/379.png?lm=1464675260"
+      },
+      "Leeds United": {
+        "kader_url": "https://www.transfermarkt.co.uk/leeds-united/kader/verein/399/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/399.png?lm=1645652224"
+      },
+      "Wolverhampton Wanderers": {
+        "kader_url": "https://www.transfermarkt.co.uk/wolverhampton-wanderers/kader/verein/543/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/543.png?lm=1467496784"
+      },
+      "Burnley FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-burnley/kader/verein/1132/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1132.png?lm=1686818840"
+      }
+    },
+    "fetched_at": "2026-04-17T13:18:29.053881"
+  },
+  "Championship": {
+    "teams": {
+      "Ipswich Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/ipswich-town/kader/verein/677/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/677.png?lm=1407655249"
+      },
+      "Coventry City": {
+        "kader_url": "https://www.transfermarkt.co.uk/coventry-city/kader/verein/990/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/990.png?lm=1684518179"
+      },
+      "Southampton FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-southampton/kader/verein/180/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/180.png?lm=1444560086"
+      },
+      "Leicester City": {
+        "kader_url": "https://www.transfermarkt.co.uk/leicester-city/kader/verein/1003/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1003.png?lm=1472229265"
+      },
+      "Sheffield United": {
+        "kader_url": "https://www.transfermarkt.co.uk/sheffield-united/kader/verein/350/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/350.png?lm=1409254138"
+      },
+      "Middlesbrough FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-middlesbrough/kader/verein/641/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/641.png?lm=1697546042"
+      },
+      "Birmingham City": {
+        "kader_url": "https://www.transfermarkt.co.uk/birmingham-city/kader/verein/337/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/337.png?lm=1672321276"
+      },
+      "Norwich City": {
+        "kader_url": "https://www.transfermarkt.co.uk/norwich-city/kader/verein/1123/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1123.png?lm=1655469640"
+      },
+      "Stoke City": {
+        "kader_url": "https://www.transfermarkt.co.uk/stoke-city/kader/verein/512/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/512.png?lm=1472243727"
+      },
+      "Swansea City": {
+        "kader_url": "https://www.transfermarkt.co.uk/swansea-city/kader/verein/2288/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/2288.png?lm=1752825825"
+      },
+      "Millwall FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-millwall/kader/verein/1028/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1028.png?lm=1760033708"
+      },
+      "Hull City": {
+        "kader_url": "https://www.transfermarkt.co.uk/hull-city/kader/verein/3008/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3008.png?lm=1562662491"
+      },
+      "Watford FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-watford/kader/verein/1010/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1010.png?lm=1468103673"
+      },
+      "Bristol City": {
+        "kader_url": "https://www.transfermarkt.co.uk/bristol-city/kader/verein/698/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/698.png?lm=1571314125"
+      },
+      "Wrexham AFC": {
+        "kader_url": "https://www.transfermarkt.co.uk/afc-wrexham/kader/verein/1112/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1112.png?lm=1704797430"
+      },
+      "Derby County": {
+        "kader_url": "https://www.transfermarkt.co.uk/derby-county/kader/verein/22/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/22.png?lm=1407654006"
+      },
+      "West Bromwich Albion": {
+        "kader_url": "https://www.transfermarkt.co.uk/west-bromwich-albion/kader/verein/984/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/984.png?lm=1457991758"
+      },
+      "Preston North End": {
+        "kader_url": "https://www.transfermarkt.co.uk/preston-north-end/kader/verein/466/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/466.png?lm=1414769167"
+      },
+      "Queens Park Rangers": {
+        "kader_url": "https://www.transfermarkt.co.uk/queens-park-rangers/kader/verein/1039/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1039.png?lm=1464680692"
+      },
+      "Blackburn Rovers": {
+        "kader_url": "https://www.transfermarkt.co.uk/blackburn-rovers/kader/verein/164/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/164.png?lm=1495228542"
+      },
+      "Oxford United": {
+        "kader_url": "https://www.transfermarkt.co.uk/oxford-united/kader/verein/988/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/988.png?lm=1522938199"
+      },
+      "Portsmouth FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-portsmouth/kader/verein/1020/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1020.png?lm=1565282045"
+      },
+      "Charlton Athletic": {
+        "kader_url": "https://www.transfermarkt.co.uk/charlton-athletic/kader/verein/358/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/358.png?lm=1448178743"
+      },
+      "Sheffield Wednesday": {
+        "kader_url": "https://www.transfermarkt.co.uk/sheffield-wednesday/kader/verein/1035/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1035.png?lm=1643214896"
+      }
+    },
+    "fetched_at": "2026-04-13T20:16:30.308940"
+  },
+  "Bundesliga": {
+    "teams": {
+      "Bayern Munich": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-bayern-munchen/kader/verein/27/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/27.png?lm=1729503608"
+      },
+      "Borussia Dortmund": {
+        "kader_url": "https://www.transfermarkt.co.uk/borussia-dortmund/kader/verein/16/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/16.png?lm=1396275280"
+      },
+      "RB Leipzig": {
+        "kader_url": "https://www.transfermarkt.co.uk/rasenballsport-leipzig/kader/verein/23826/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/23826.png?lm=1619431624"
+      },
+      "Bayer 04 Leverkusen": {
+        "kader_url": "https://www.transfermarkt.co.uk/bayer-04-leverkusen/kader/verein/15/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/15.png?lm=1710156317"
+      },
+      "Eintracht Frankfurt": {
+        "kader_url": "https://www.transfermarkt.co.uk/eintracht-frankfurt/kader/verein/24/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/24.png?lm=1700074979"
+      },
+      "VfB Stuttgart": {
+        "kader_url": "https://www.transfermarkt.co.uk/vfb-stuttgart/kader/verein/79/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/79.png?lm=1680587427"
+      },
+      "TSG 1899 Hoffenheim": {
+        "kader_url": "https://www.transfermarkt.co.uk/tsg-1899-hoffenheim/kader/verein/533/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/533.png?lm=1675591766"
+      },
+      "VfL Wolfsburg": {
+        "kader_url": "https://www.transfermarkt.co.uk/vfl-wolfsburg/kader/verein/82/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/82.png?lm=1503060755"
+      },
+      "SC Freiburg": {
+        "kader_url": "https://www.transfermarkt.co.uk/sc-freiburg/kader/verein/60/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/60.png?lm=1517249279"
+      },
+      "SV Werder Bremen": {
+        "kader_url": "https://www.transfermarkt.co.uk/sv-werder-bremen/kader/verein/86/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/86.png?lm=1403082298"
+      },
+      "Hamburger SV": {
+        "kader_url": "https://www.transfermarkt.co.uk/hamburger-sv/kader/verein/41/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/41.png?lm=1597319274"
+      },
+      "FC Augsburg": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-augsburg/kader/verein/167/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/167.png?lm=1656582897"
+      },
+      "Borussia Mönchengladbach": {
+        "kader_url": "https://www.transfermarkt.co.uk/borussia-monchengladbach/kader/verein/18/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/18.png?lm=1656585796"
+      },
+      "1.FSV Mainz 05": {
+        "kader_url": "https://www.transfermarkt.co.uk/1-fsv-mainz-05/kader/verein/39/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/39.png?lm=1564748880"
+      },
+      "1.FC Köln": {
+        "kader_url": "https://www.transfermarkt.co.uk/1-fc-koln/kader/verein/3/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3.png?lm=1656580823"
+      },
+      "1.FC Union Berlin": {
+        "kader_url": "https://www.transfermarkt.co.uk/1-fc-union-berlin/kader/verein/89/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/89.png?lm=1402956210"
+      },
+      "FC St. Pauli": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-st-pauli/kader/verein/35/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/35.png?lm=1521036360"
+      },
+      "1.FC Heidenheim 1846": {
+        "kader_url": "https://www.transfermarkt.co.uk/1-fc-heidenheim-1846/kader/verein/2036/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/2036.png?lm=1685457789"
+      }
+    },
+    "fetched_at": "2026-04-13T20:16:41.882268"
+  },
+  "League One": {
+    "teams": {},
+    "fetched_at": "2026-04-16T15:25:53.153134"
+  },
+  "League Two": {
+    "teams": {
+      "Milton Keynes Dons": {
+        "kader_url": "https://www.transfermarkt.co.uk/milton-keynes-dons/kader/verein/991/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/991.png?lm=1748189020"
+      },
+      "Salford City": {
+        "kader_url": "https://www.transfermarkt.co.uk/salford-city/kader/verein/34888/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/34888.png?lm=1701442384"
+      },
+      "Bristol Rovers": {
+        "kader_url": "https://www.transfermarkt.co.uk/bristol-rovers/kader/verein/2455/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/2455.png?lm=1550607109"
+      },
+      "Crawley Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/crawley-town/kader/verein/3537/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3537.png?lm=1690304297"
+      },
+      "Chesterfield FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-chesterfield/kader/verein/1219/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1219.png?lm=1500716772"
+      },
+      "Notts County": {
+        "kader_url": "https://www.transfermarkt.co.uk/notts-county/kader/verein/1045/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1045.png?lm=1522153278"
+      },
+      "Crewe Alexandra": {
+        "kader_url": "https://www.transfermarkt.co.uk/crewe-alexandra/kader/verein/1042/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1042.png?lm=1520420741"
+      },
+      "Cambridge United": {
+        "kader_url": "https://www.transfermarkt.co.uk/cambridge-united/kader/verein/986/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/986.png?lm=1751997707"
+      },
+      "Walsall FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-walsall/kader/verein/899/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/899.png?lm=1533831627"
+      },
+      "Grimsby Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/grimsby-town/kader/verein/1034/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1034.png?lm=1648325629"
+      },
+      "Fleetwood Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/fleetwood-town/kader/verein/11177/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/11177.png?lm=1464290061"
+      },
+      "Gillingham FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-gillingham/kader/verein/2814/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/2814.png?lm=1462393871"
+      },
+      "Swindon Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/swindon-town/kader/verein/352/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/352.png?lm=1461358647"
+      },
+      "Colchester United": {
+        "kader_url": "https://www.transfermarkt.co.uk/colchester-united/kader/verein/1060/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1060.png?lm=1570543405"
+      },
+      "Tranmere Rovers": {
+        "kader_url": "https://www.transfermarkt.co.uk/tranmere-rovers/kader/verein/1074/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1074.png?lm=1626537040"
+      },
+      "Shrewsbury Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/shrewsbury-town/kader/verein/3054/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3054.png?lm=1474148711"
+      },
+      "Barrow AFC": {
+        "kader_url": "https://www.transfermarkt.co.uk/afc-barrow/kader/verein/6168/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/6168.png?lm=1414223460"
+      },
+      "Bromley FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-bromley/kader/verein/8981/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/8981.png?lm=1560787189"
+      },
+      "Barnet FC": {
+        "kader_url": "https://www.transfermarkt.co.uk/fc-barnet/kader/verein/2804/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/2804.png?lm=1535383690"
+      },
+      "Cheltenham Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/cheltenham-town/kader/verein/3371/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3371.png?lm=1664353018"
+      },
+      "Harrogate Town": {
+        "kader_url": "https://www.transfermarkt.co.uk/harrogate-town/kader/verein/12020/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/12020.png?lm=1505665469"
+      },
+      "Newport County": {
+        "kader_url": "https://www.transfermarkt.co.uk/newport-county/kader/verein/3716/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3716.png?lm=1747313782"
+      },
+      "Oldham Athletic": {
+        "kader_url": "https://www.transfermarkt.co.uk/oldham-athletic/kader/verein/1078/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/1078.png?lm=1641223901"
+      },
+      "Accrington Stanley": {
+        "kader_url": "https://www.transfermarkt.co.uk/accrington-stanley/kader/verein/3688/saison_id/2025/saison_id/2025/plus/1",
+        "crest_url": "https://tmssl.akamaized.net//images/wappen/tiny/3688.png?lm=1416652535"
+      }
+    },
+    "fetched_at": "2026-04-16T15:25:30.288604"
+  }
+}

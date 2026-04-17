@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pre Scout Report – {{ home_team }} v {{ away_team }}</title>
+<style>
+  /* ─── Reset & base ─── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Arial', 'Helvetica Neue', sans-serif;
+    background: #1a3a6b;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* ─── Page wrapper ─── */
+  .page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    background: #1a3a6b;
+  }
+
+  /* ─── Header ─── */
+  .header {
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .header .club-owner {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .header .report-title {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d0d8e8;
+    margin-top: 2px;
+  }
+
+  /* ─── Match bar ─── */
+  .match-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #14306e;
+    border: 1px solid #2a4a8a;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 14px;
+  }
+  .team-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+  }
+  .team-side.away { flex-direction: row; justify-content: flex-end; }
+  .crest-wrap img { width: 52px; height: 52px; object-fit: contain; }
+  .crest-placeholder {
+    width: 52px; height: 52px;
+    background: #2a4a8a;
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; color: #8899bb;
+  }
+  .formation-label { font-size: 10px; color: #aabbd0; margin-top: 2px; }
+  .l5g-dots { display: flex; gap: 4px; margin-top: 4px; }
+  .l5g-dots span {
+    width: 12px; height: 12px; border-radius: 50%; display: inline-block;
+  }
+  .dot-w { background: #22c55e; }
+  .dot-d { background: #f59e0b; }
+  .dot-l { background: #ef4444; }
+  .team-name-label { font-size: 13px; font-weight: 700; }
+  .league-label { font-size: 10px; color: #aabbd0; }
+
+  .match-centre { text-align: center; }
+  .vs-text { font-size: 22px; font-weight: 700; color: #ffffff; line-height: 1; }
+  .match-date { font-size: 12px; color: #d0d8e8; margin-top: 4px; font-weight: 600; }
+  .league-logo { margin-top: 6px; }
+  .league-logo img { height: 32px; object-fit: contain; }
+
+  /* ─── Content grid ─── */
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  /* ─── Section blocks ─── */
+  .section {
+    background: #14306e;
+    border: 1px solid #2a4a8a;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .section-header {
+    background: #0f2557;
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #d0d8e8;
+    border-bottom: 1px solid #2a4a8a;
+  }
+  .poi-body {
+    padding: 8px 10px;
+    min-height: 36px;
+    font-size: 10.5px;
+    color: #d8e4f0;
+    line-height: 1.5;
+  }
+
+  /* ─── Tables ─── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+  thead tr {
+    background: #0f2557;
+  }
+  thead th {
+    padding: 5px 6px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 9.5px;
+    color: #c0cfe8;
+    border-bottom: 1px solid #2a4a8a;
+  }
+  thead th:first-child { text-align: left; }
+  tbody tr:nth-child(even) { background: rgba(255,255,255,0.04); }
+  tbody tr:nth-child(odd)  { background: transparent; }
+  tbody td {
+    padding: 4px 6px;
+    color: #e8eef8;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  tbody td:not(:first-child) { text-align: center; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  /* Position badge */
+  .pos-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.12);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 8.5px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+
+  /* ─── Footer ─── */
+  .footer {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 9px;
+    color: #6677aa;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ═══ HEADER ═══ -->
+  <div class="header">
+    <div class="club-owner">{{ owner_club }} Football Club</div>
+    <div class="report-title">Pre Scout Report</div>
+  </div>
+
+  <!-- ═══ MATCH BAR ═══ -->
+  <div class="match-bar">
+
+    <!-- Home team: Formation → Crest → Name -->
+    <div class="team-side home">
+      <!-- Formation SVG + label + L5G (outermost left) -->
+      <div style="text-align:center">
+        <img src="{{ home_formation_svg }}" width="52" height="72" alt="{{ home_formation }}"/>
+        <div class="formation-label">{{ home_formation }}</div>
+        <div class="l5g-dots" style="justify-content:center">
+          {% for r in home_l5g %}
+            <span class="dot-{{ r }}"></span>
+          {% endfor %}
+        </div>
+      </div>
+      <!-- Crest -->
+      <div class="crest-wrap">
+        {% if home_crest_url %}
+          <img src="{{ home_crest_url }}" alt="{{ home_team }}"/>
+        {% else %}
+          <div class="crest-placeholder">{{ home_team[:3].upper() }}</div>
+        {% endif %}
+      </div>
+      <!-- Home: Name + league -->
+      <div>
+        <div class="team-name-label">{{ home_team }}</div>
+        <div class="league-label">{{ home_league }}</div>
+      </div>
+    </div>
+
+    <!-- Centre -->
+    <div class="match-centre">
+      <div class="vs-text">V</div>
+      <div class="match-date">{{ match_date }}</div>
+      <div class="league-logo">
+        {% if league_logo_url %}
+          <img src="{{ league_logo_url }}" alt="{{ league }}"/>
+        {% else %}
+          <span style="font-size:9px;color:#8899bb">{{ league }}</span>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- Away team: Name → Crest → Formation (mirrors home) -->
+    <div class="team-side away">
+      <!-- Away: Name + league (closest to centre V) -->
+      <div style="text-align:right">
+        <div class="team-name-label">{{ away_team }}</div>
+        <div class="league-label">{{ away_league }}</div>
+      </div>
+      <!-- Crest -->
+      <div class="crest-wrap">
+        {% if away_crest_url %}
+          <img src="{{ away_crest_url }}" alt="{{ away_team }}"/>
+        {% else %}
+          <div class="crest-placeholder">{{ away_team[:3].upper() }}</div>
+        {% endif %}
+      </div>
+      <!-- Formation SVG + label + L5G (outermost right, mirrors home left) -->
+      <div style="text-align:center">
+        <img src="{{ away_formation_svg }}" width="52" height="72" alt="{{ away_formation }}"/>
+        <div class="formation-label">{{ away_formation }}</div>
+        <div class="l5g-dots" style="justify-content:center">
+          {% for r in away_l5g %}
+            <span class="dot-{{ r }}"></span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /match-bar -->
+
+  <!-- ═══ CONTENT GRID ═══ -->
+  <div class="content-grid">
+
+    <!-- ── HOME COLUMN ── -->
+    <div class="home-col">
+
+      <!-- Player(s) of Interest -->
+      <div class="section">
+        <div class="section-header">Player(s) of Interest</div>
+        <div class="poi-body">
+          {{ home_poi if home_poi else '&nbsp;' }}
+        </div>
+      </div>
+
+      <!-- Out of Contract -->
+      <div class="section">
+        <div class="section-header">Out of Contract Players</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Minutes Played</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if home_summer %}
+              {% for row in home_summer %}
+              <tr>
+                <td>{{ row.Name }}</td>
+                <td><span class="pos-badge">{{ row.Position }}</span></td>
+                <td>{{ row.MinutePlayed }}</td>
+                <td>{{ row.Age }}</td>
+              </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="4" style="text-align:center;color:#6677aa;padding:8px">No out-of-contract players found</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- On Loan -->
+      <div class="section">
+        <div class="section-header">On Loan Players</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>P</th>
+              <th>From</th>
+              <th>Minutes Played</th>
+              <th>A</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if home_loans %}
+              {% for row in home_loans %}
+              <tr>
+                <td>{{ row.Name }}</td>
+                <td><span class="pos-badge">{{ row.Position }}</span></td>
+                <td>{{ row.From }}</td>
+                <td>{{ row.MinutePlayed }}</td>
+                <td>{{ row.Age }}</td>
+              </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="5" style="text-align:center;color:#6677aa;padding:8px">No loan players</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+    </div><!-- /home-col -->
+
+    <!-- ── AWAY COLUMN ── -->
+    <div class="away-col">
+
+      <!-- Player(s) of Interest -->
+      <div class="section">
+        <div class="section-header">Player(s) of Interest</div>
+        <div class="poi-body">
+          {{ away_poi if away_poi else '&nbsp;' }}
+        </div>
+      </div>
+
+      <!-- Out of Contract -->
+      <div class="section">
+        <div class="section-header">Out of Contract Players</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Minutes Played</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if away_summer %}
+              {% for row in away_summer %}
+              <tr>
+                <td>{{ row.Name }}</td>
+                <td><span class="pos-badge">{{ row.Position }}</span></td>
+                <td>{{ row.MinutePlayed }}</td>
+                <td>{{ row.Age }}</td>
+              </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="4" style="text-align:center;color:#6677aa;padding:8px">No out-of-contract players found</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- On Loan -->
+      <div class="section">
+        <div class="section-header">On Loan Players</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>P</th>
+              <th>From</th>
+              <th>Minutes Played</th>
+              <th>A</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if away_loans %}
+              {% for row in away_loans %}
+              <tr>
+                <td>{{ row.Name }}</td>
+                <td><span class="pos-badge">{{ row.Position }}</span></td>
+                <td>{{ row.From }}</td>
+                <td>{{ row.MinutePlayed }}</td>
+                <td>{{ row.Age }}</td>
+              </tr>
+              {% endfor %}
+            {% else %}
+              <tr><td colspan="5" style="text-align:center;color:#6677aa;padding:8px">No loan players</td></tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+    </div><!-- /away-col -->
+
+  </div><!-- /content-grid -->
+
+  <!-- ═══ NOTE ═══ -->
+  {% if note %}
+  <div class="section" style="margin-top:12px">
+    <div class="section-header">Note</div>
+    <div class="poi-body" style="white-space:pre-wrap">{{ note }}</div>
+  </div>
+  {% endif %}
+
+  <!-- ═══ FOOTER ═══ -->
+  <div class="footer">
+    Generated {{ generated_at }} · Data source: Transfermarkt
+  </div>
+
+</div><!-- /page -->
+</body>
+</html>
